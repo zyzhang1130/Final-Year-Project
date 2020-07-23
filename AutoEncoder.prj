@@ -1,0 +1,152 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="C:\Users\Lenovo\Desktop\FYP\AutoEncoder.prj" location="C:\Users\Lenovo\Desktop\FYP" name="AutoEncoder" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>AutoEncoder</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\AutoEncoder\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\AutoEncoder\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\AutoEncoder\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\AutoEncoder\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\AutoEncoder</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	 AutoEncoder -? 
+	 AutoEncoder in out 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 in out  input arguments</param.help.text>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\DeepQNN-master (1)\DeepQNN-master\deepQNN_optionable_intrinsic_noise\AutoEncoder.m</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\DeepQNN-master\deepQNN_optionable_intrinsic_noise\ApplyLayer.m</file>
+      <file>${PROJECT_ROOT}\DeepQNN-master\deepQNN_optionable_intrinsic_noise\ApplyNetwork.m</file>
+      <file>${PROJECT_ROOT}\DeepQNN-master\deepQNN_optionable_intrinsic_noise\AutoData.m</file>
+      <file>${PROJECT_ROOT}\DeepQNN-master\deepQNN_optionable_intrinsic_noise\BrownianCircuit.m</file>
+      <file>${PROJECT_ROOT}\DeepQNN-master\deepQNN_optionable_intrinsic_noise\Comm.m</file>
+      <file>${PROJECT_ROOT}\DeepQNN-master\deepQNN_optionable_intrinsic_noise\CostNetwork.m</file>
+      <file>${PROJECT_ROOT}\DeepQNN-master\deepQNN_optionable_intrinsic_noise\FChannel.m</file>
+      <file>${PROJECT_ROOT}\DeepQNN-master\deepQNN_optionable_intrinsic_noise\ghz.m</file>
+      <file>${PROJECT_ROOT}\DeepQNN-master\deepQNN_optionable_intrinsic_noise\QuickInitilizer.m</file>
+      <file>${PROJECT_ROOT}\DeepQNN-master\deepQNN_optionable_intrinsic_noise\Randomunitary.m</file>
+      <file>${PROJECT_ROOT}\DeepQNN-master\deepQNN_optionable_intrinsic_noise\RandomUnitary1.m</file>
+      <file>${PROJECT_ROOT}\DeepQNN-master\deepQNN_optionable_intrinsic_noise\SpectralRange.m</file>
+      <file>${PROJECT_ROOT}\DeepQNN-master\deepQNN_optionable_intrinsic_noise\TrainNetwork.m</file>
+      <file>${PROJECT_ROOT}\DeepQNN-master\deepQNN_optionable_intrinsic_noise\w.m</file>
+      <file>${PROJECT_ROOT}\DeepQNN-master\QETLAB-0.9\helpers\opt_args.m</file>
+      <file>${PROJECT_ROOT}\DeepQNN-master\QETLAB-0.9\PartialTrace.m</file>
+      <file>${PROJECT_ROOT}\DeepQNN-master\QETLAB-0.9\PermuteSystems.m</file>
+      <file>${PROJECT_ROOT}\DeepQNN-master\QETLAB-0.9\Swap.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\AutoEncoder\for_testing" name="AutoEncoder.exe" optional="false">C:\Users\Lenovo\Desktop\FYP\AutoEncoder\for_testing\AutoEncoder.exe</file>
+      <file location="${PROJECT_ROOT}\AutoEncoder\for_testing" name="splash.png" optional="false">C:\Users\Lenovo\Desktop\FYP\AutoEncoder\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\AutoEncoder\for_testing" name="readme.txt" optional="true">C:\Users\Lenovo\Desktop\FYP\AutoEncoder\for_testing\readme.txt</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2019a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
